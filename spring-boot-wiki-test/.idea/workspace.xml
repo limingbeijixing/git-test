@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="709fe8c9-dda1-49eb-9322-8d9fee70c1fe" name="Default Changelist" comment="" />
+    <list default="true" id="709fe8c9-dda1-49eb-9322-8d9fee70c1fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +40,9 @@
     </expand>
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -49,6 +55,7 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="2FWbLg5XS5m5msjgAi3U4ib0wgT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,12 +67,14 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="WikiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -97,6 +106,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-920" y="108" key="#Notifications" timestamp="1664732563211">
+      <screen x="-1024" y="81" width="1024" height="738" />
+    </state>
+    <state x="-920" y="108" key="#Notifications/0.0.1536.834/-1024.81.1024.738@-1024.81.1024.738" timestamp="1664732563211" />
     <state x="361" y="76" key="#Project_Structure" timestamp="1664627699095">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -105,6 +118,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1664611045066" />
+    <state x="-879" y="81" key="CommitChangelistDialog2" timestamp="1664732893774">
+      <screen x="-1024" y="81" width="1024" height="738" />
+    </state>
+    <state x="-879" y="81" key="CommitChangelistDialog2/0.0.1536.834/-1024.81.1024.738@-1024.81.1024.738" timestamp="1664732893774" />
+    <state x="-1024" y="98" key="DiffContextDialog" timestamp="1664732819997">
+      <screen x="-1024" y="81" width="1024" height="738" />
+    </state>
+    <state x="-1024" y="98" key="DiffContextDialog/0.0.1536.834/-1024.81.1024.738@-1024.81.1024.738" timestamp="1664732819997" />
+    <state x="-732" y="191" key="FileChooserDialogImpl" timestamp="1664732648821">
+      <screen x="-1024" y="81" width="1024" height="738" />
+    </state>
+    <state x="-732" y="191" key="FileChooserDialogImpl/0.0.1536.834/-1024.81.1024.738@-1024.81.1024.738" timestamp="1664732648821" />
     <state width="1487" height="263" key="GridCell.Tab.0.bottom" timestamp="1664638901412">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -137,14 +162,19 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1487" height="263" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1664638901412" />
-    <state x="285" y="60" key="SettingsEditor" timestamp="1664611069660">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="-953" y="104" key="SettingsEditor" timestamp="1664732608715">
+      <screen x="-1024" y="81" width="1024" height="738" />
     </state>
+    <state x="-953" y="104" key="SettingsEditor/0.0.1536.834/-1024.81.1024.738@-1024.81.1024.738" timestamp="1664732608715" />
     <state x="285" y="60" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1664611069660" />
     <state x="-705" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1664730367275">
       <screen x="-1024" y="81" width="1024" height="738" />
     </state>
     <state x="-705" y="294" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1024.81.1024.738@-1024.81.1024.738" timestamp="1664730367275" />
     <state x="479" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1024.81.1024.738@0.0.1536.834" timestamp="1664675240034" />
+    <state x="-690" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1664732898389">
+      <screen x="-1024" y="81" width="1024" height="738" />
+    </state>
+    <state x="-690" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1024.81.1024.738@-1024.81.1024.738" timestamp="1664732898389" />
   </component>
 </project>
