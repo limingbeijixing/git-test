@@ -6,7 +6,7 @@ public class BaseDTO extends ToString {
     private Long id;
     private Date gmtCreate;
     private Date gmtModified;
-
+//66666666
     public BaseDTO() {
     }
 
