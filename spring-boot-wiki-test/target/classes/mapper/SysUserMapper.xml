@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.mapper.SysUserMapper">
+    <sql id="tbl">
+        t_sys_user
+    </sql>
+
+    <sql id="allColumns">
+        id, identity_card, username, password, nick, sex, age, email, phone, status, salt, gmt_create, gmt_modified
+    </sql>
+
+    <resultMap id="baseResultMap" type="com.baizhi.entity.SysUser">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="identityCard" column="identity_card" jdbcType="VARCHAR"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+        <result property="nick" column="nick" jdbcType="VARCHAR"/>
+        <result property="sex" column="sex" jdbcType="VARCHAR"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+        <result property="phone" column="phone" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="VARCHAR"/>
+        <result property="salt" column="salt" jdbcType="VARCHAR"/>
+        <result property="gmtCreate" column="gmt_create" jdbcType="TIMESTAMP"/>
+        <result property="gmtModified" column="gmt_modified" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <select id="selectById" parameterType="java.lang.Long" resultMap="baseResultMap">
+        select
+        <include refid="allColumns"/>
+        from
+        <include refid="tbl"/>
+        where
+        id = #{id}
+    </select>
+
+    <select id="queryUsers" resultMap="baseResultMap">
+        select
+        <include refid="allColumns"/>
+        from
+        <include refid="tbl"/>
+    </select>
+
+    <insert id="insert" parameterType="com.baizhi.entity.SysUser">
+        insert into
+        <include refid="tbl"/>
+        values(#{id}, #{identityCard}, #{username}, #{password}, #{nick}, #{sex}, #{age}, #{email}, #{phone}, #{status},
+        #{salt}, #{gmtCreate}, #{gmtModified});
+    </insert>
+
+    <insert id="insertSelective" parameterType="com.baizhi.entity.SysUser">
+        insert into
+        <include refid="tbl"/>
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null and id != ''">
+                id,
+            </if>
+            <if test="identityCard != null and identityCard != ''">
+                identity_card,
+            </if>
+            <if test="username != null and username != ''">
+                username,
+            </if>
+            <if test="password != null and password != ''">
+                password,
+            </if>
+            <if test="nick != null and nick != ''">
+                nick,
+            </if>
+            <if test="sex != null and sex != ''">
+                sex,
+            </if>
+            <if test="age != null">
+                age,
+            </if>
+            <if test="email != null and email != ''">
+                email,
+            </if>
+            <if test="phone != null and phone != ''">
+                phone,
+            </if>
+            <if test="status != null and status != ''">
+                status,
+            </if>
+            <if test="salt != null and salt != ''">
+                salt,
+            </if>
+            <if test="gmtCreate != null">
+                gmt_create,
+            </if>
+            <if test="gmtModified != null">
+                gmt_modified,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null and id != ''">
+                #{id, jdbcType=BIGINT},
+            </if>
+            <if test="identityCard != null and identityCard != ''">
+                #{identityCard, jdbcType=VARCHAR},
+            </if>
+            <if test="username != null and username != ''">
+                #{username, jdbcType=VARCHAR},
+            </if>
+            <if test="password != null and password != ''">
+                #{password, jdbcType=VARCHAR},
+            </if>
+            <if test="nick != null and nick != ''">
+                #{nick, jdbcType=VARCHAR},
+            </if>
+            <if test="sex != null and sex != ''">
+                #{sex, jdbcType=VARCHAR},
+            </if>
+            <if test="age != null">
+                #{age, jdbcType=INTEGER},
+            </if>
+            <if test="email != null and email != ''">
+                #{email, jdbcType=VARCHAR},
+            </if>
+            <if test="phone != null and phone != ''">
+                #{phone, jdbcType=VARCHAR},
+            </if>
+            <if test="status != null and status != ''">
+                #{status, jdbcType=VARCHAR},
+            </if>
+            <if test="salt != null and salt != ''">
+                #{salt, jdbcType=VARCHAR},
+            </if>
+            <if test="gmtCreate != null">
+                #{gmtCreate, jdbcType=TIMESTAMP},
+            </if>
+            <if test="gmtModified != null">
+                #{gmtModified, jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+
+    <delete id="delete">
+        delete from
+        <include refid="tbl"/>
+        where
+        id = #{id}
+    </delete>
+</mapper>

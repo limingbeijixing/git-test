@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3dc0cd8-dedf-4eab-923e-e7e5ba42c64c" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\&lt;\?xml version\=\&quot;1\.0\&quot; encoding\=\&quot;UTF\-8\&quot;\?\&gt;\n\&lt;project xmlns\=\&quot;http\:\/\/maven\.apache\.org\/POM\/4\.0\.0\&quot;\n         xmlns\:xsi\=\&quot;http\:\/\/www\.w3\.org\/2001\/XMLSchema\-instance\&quot;\n         xsi\:schemaLocation\=\&quot;http\:\/\/maven\.apache\.org\/POM\/4\.0\.0 http\:\/\/maven\.apache\.org\/xsd\/maven\-4\.0\.0\.xsd\&quot;\&gt;\n    \&lt;modelVersion\&gt;4\.0\.0\&lt;\/modelVersion\&gt;\n\n    \&lt;groupId\&gt;com\.itheima\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;day04_eesy_03account_aoptx_anno\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;1\.0\-SNAPSHOT\&lt;\/version\&gt;\n    \&lt;packaging\&gt;jar\&lt;\/packaging\&gt;\n\n\&lt;dependencies\&gt;\n\&lt;dependency\&gt;\n    \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;spring\-context\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;5\.0\.2\.RELEASE\&lt;\/version\&gt;\n\&lt;\/dependency\&gt;\n\&lt;dependency\&gt;\n    \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;spring\-test\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;5\.0\.2\.RELEASE\&lt;\/version\&gt;\n\&lt;\/dependency\&gt;\n\&lt;dependency\&gt;\n    \&lt;groupId\&gt;commons\-dbutils\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;commons\-dbutils\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;1\.4\&lt;\/version\&gt;\n\&lt;\/dependency\&gt;\n\n\&lt;dependency\&gt;\n    \&lt;groupId\&gt;mysql\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;mysql\-connector\-java\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;5\.1\.6\&lt;\/version\&gt;\n\&lt;\/dependency\&gt;\n\n\&lt;dependency\&gt;\n    \&lt;groupId\&gt;c3p0\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;c3p0\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;0\.9\.1\.2\&lt;\/version\&gt;\n\&lt;\/dependency\&gt;\n\n\&lt;dependency\&gt;\n    \&lt;groupId\&gt;junit\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;junit\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;4\.12\&lt;\/version\&gt;\n\&lt;\/dependency\&gt;\n\&lt;dependency\&gt;\n    \&lt;groupId\&gt;org\.aspectj\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;aspectjweaver\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;1\.8\.7\&lt;\/version\&gt;\n\&lt;\/dependency\&gt;\n\&lt;\/dependencies\&gt;\n\n\n\&lt;\/project\&gt;</find>
+    </findStrings>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FKhofIUSmA88o2ny9POKU0JGh3" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="JUnit.AccountServiceTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day04_eesy_03account_aoptx_anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.AccountServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.testTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day04_eesy_03account_aoptx_anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testTransfer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AccountServiceTest" />
+      <item itemvalue="JUnit.AccountServiceTest.testTransfer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountServiceTest" />
+        <item itemvalue="JUnit.AccountServiceTest.testTransfer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3dc0cd8-dedf-4eab-923e-e7e5ba42c64c" name="Default" comment="" />
+      <created>1525083635505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525083635505</updated>
+      <workItem from="1525083637029" duration="1725000" />
+      <workItem from="1664246860281" duration="1241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AccountServiceTest - 2018.04.30 at 18h 26m 57s.xml">
+      <configuration name="AccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest - 2018.04.30 at 18h 28m 50s.xml">
+      <configuration name="AccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest - 2018.04.30 at 18h 29m 19s.xml">
+      <configuration name="AccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest - 2018.04.30 at 18h 40m 02s.xml">
+      <configuration name="AccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest - 2018.04.30 at 18h 40m 20s.xml">
+      <configuration name="AccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_testTransfer - 2018.04.30 at 18h 32m 02s.xml">
+      <configuration name="AccountServiceTest.testTransfer" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-662" y="339" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1664247862714">
+      <screen x="-1024" y="81" width="1024" height="738" />
+    </state>
+    <state x="-662" y="339" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834/-1024.81.1024.738@-1024.81.1024.738" timestamp="1664247862714" />
+    <state x="-989" y="92" key="SettingsEditor" timestamp="1664247892783">
+      <screen x="-1024" y="81" width="1024" height="738" />
+    </state>
+    <state x="-989" y="92" key="SettingsEditor/0.0.1536.834/-1024.81.1024.738@-1024.81.1024.738" timestamp="1664247892783" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

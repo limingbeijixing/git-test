@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-boot-wiki-test:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-boot-wiki-test</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-boot-wiki-test.war">
+      <element id="artifact" artifact-name="spring-boot-wiki-test:war exploded" />
+    </root>
+  </artifact>
+</component>

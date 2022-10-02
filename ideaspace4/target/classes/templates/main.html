@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="base/header::header('主页')">
+</head>
+<body id="watermark">
+<span id="top"></span>
+<div align="center">
+    <h1>主页</h1>
+    <h2>Hello World 2022!</h2>
+    <h3>this is wiki main page!</h3>
+    <button id="a" type="button">测试按钮a</button>
+    <button id="b" type="button">测试按钮b</button>
+    <button id="c" type="button" onclick="test()">测试按钮c</button>
+    <button id="d" type="button" onclick="javascript:void(0)">测试按钮d</button>
+    <ul id="list">
+        <li>冰箱</li>
+        <li>空调</li>
+        <li>茶几</li>
+    </ul>
+    <form action="/dev/index" method="post">
+        <input type="text" name="username" placeholder="请输入用户名"/>
+        <input type="password" name="password" placeholder="请输入用户密码"/>
+        <input type="date" name="gmtStart" placeholder="请选择开始日期"/>
+        <input type="date" name="gmtEnd" placeholder="请选择结束日期"/>
+        <button type="reset">重置</button>
+        <button type="submit">提交</button>
+    </form>
+</div>
+<script type="text/javascript">
+    console.log($);
+    console.log(jQuery);
+    $.test1(123);
+    $("a").test2(456);
+    $("b").test3(789);
+
+    function test() {
+        console.log('012');
+    }
+
+    var list = document.getElementById("list");
+    var li = list.children;
+    for (var i = 0; i < li.length; i++) {
+        (function (j) {
+            li[j].onclick = function () {
+                console.log("点击第", j, "个标签元素");
+            };
+            console.log("第", j, "个标签元素");
+        })(i);
+    }
+
+    var arr = [1, 2, 3, 4, 5];
+    (function () {
+        for (var i in arr) {
+            console.log("立即执行函数：", i);
+        }
+    })();
+
+</script>
+</body>
+<div th:replace="base/footer::footer"></div>
+</html>
