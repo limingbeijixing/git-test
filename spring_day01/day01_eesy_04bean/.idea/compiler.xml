@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="day01_eesy_04bean" target="1.5" />
+      <module name="day01_eesy_04bean" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
